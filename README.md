@@ -33,8 +33,8 @@ function sed($t)
 	$sed);
     return $sed;
 } # if necessary or u can use your own rss fetcher
-```
-
+```  
+![](https://img.shields.io/twitter/follow/sinkaroid?style=social)  
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
