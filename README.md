@@ -10,7 +10,7 @@ $ ./nhen.sh #chmod +x if necessary
 
 ### result
 ```sh
-# ~~directly mkdir as your put code like /177013~~ Now your resultname same as title like nhentai site
+# <del>directly mkdir as your put code like /177013</del>, Now your resultname same as title like nhentai site
 ```  
 
 ## License
