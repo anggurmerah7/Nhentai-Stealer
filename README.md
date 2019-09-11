@@ -1,40 +1,17 @@
-# Trmsbs  
-tiramisubs scraper  
-![](https://img.shields.io/badge/codename-tiramisu-ff69b4) ![](https://img.shields.io/github/last-commit/sinkaroid/trmsbs) ![](https://img.shields.io/badge/php-%3E%3D5.3.9-blue.svg) ![](https://img.shields.io/pypi/pyversions/3)  
+# Nhentai.sh
+![](https://img.shields.io/badge/codename-nhentai-hotpink)  
+bash nhentai stealer  
 
-**latestcontent:**
+![](https://1.bp.blogspot.com/-KPkuxhX4r90/XXhGBXGUfHI/AAAAAAAAJsA/zPxiDqddgm4vQKEmvS6BXoOrf1Zvcga_QCLcBGAsYHQ/s1600/Screenshot_131.png)  
+
 ```sh
-$ cd cons;ls
-$ chmod +x trmsbs.py #if necessary
-$ ./trmsbs
+$ ./nhen.sh #chmod +x if necessary
 ```  
-**deploy+params argument:**
-```php
-$bc = basename(__FILE__);
-print "/$bc?page={1..99}"; 
-```  
-- `/$bc?home` main  
-- `/$bc?page={1..99}` page  
-- `/$bc?search=$argv[0]` query  
 
-## Discord
-integerate this repo to hookbot  
-![](https://1.bp.blogspot.com/-7yKAX1JOhtE/XXV7F2PUeBI/AAAAAAAAJro/pt2r3NgRBhUonB4H-nbXpS85jldPPs5kACLcBGAs/s1600/Screenshot_130.png)
-
-```
-$ cd trmsbs/feed
-$ code index.php #vscode
+### result
+```sh
+# ~~directly mkdir as your put code like /177013~~ Now your resultname same as title like nhentai site
 ```  
-```php
-function sed($t)
-{
-    $sed = $t;
-    $sed = str_replace('https://trmsbs.sinkaroid.org/application/controllers/get.php?anti=', 'yoursite',    
-	$sed);
-    return $sed;
-} # if necessary or u can use your own rss fetcher
-```  
-![](https://img.shields.io/twitter/follow/sinkaroid?style=social)  
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
